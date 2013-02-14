@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>simplicity-template-plugin</title>
+        <link href="http://cdn.transparensee.com/lib/bootstrap/2.3.0/bootstrap.min.css" rel="stylesheet">
+        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/base/jquery-ui.css" rel="stylesheet">
+        <link href="http://cdn.transparensee.com/simplicity/4.0/simplicity.min.css" rel="stylesheet">
+        <link href="simplicityExample.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="">simplicity-template-plugin</a>
+                    <ul class="nav">
+                        <li><a href="http://github.com/t11e/simplicity-template-plugin">Repository</a><li>
+                        <li><a href="http://simplicitywidgets.org">Simplicity Widgets</a><li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1>simplicity-template-plugin</h1>
+            <p>
+                This is a template project that you can fork or copy to help get started when creating your own
+                plugins.
+            </p>
+            <p>
+                This example plugin changes the text below from
+                <code>example div</code> to <code>Hello, World!</code>.
+            </p>
+            <div id="example">example div</div>
+        </div>
+        <!--[if IE]>
+            <script src="http://cdn.transparensee.com/lib/xdr/984c41/xdr.min.js"></script>
+            <script src="http://cdn.transparensee.com/lib/json2/2010-11-17/json2.min.js"></script>
+        <![endif]-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+        <script src="http://cdn.transparensee.com/lib/jquery-plugin/touchpunch/0.2.2/jquery.ui.touch-punch.min.js"></script>
+        <script src="http://cdn.transparensee.com/lib/bootstrap/2.3.0/bootstrap.min.js"></script>
+        <script src="http://cdn.transparensee.com/simplicity/3.2/simplicity.min.js"></script>
+        <script src="simplicityExample.js"></script>
+        <script type="text/javascript">
+            $(function ($) {
+                $('#example').simplicityExample();
+            });
+        </script>
+    </body>
+</html>
